@@ -7,7 +7,10 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/weather",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"pair"
+			]
 		},
 		{
 			"id": "disk-space",
@@ -16,7 +19,10 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/disk-space",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"pair"
+			]
 		},
 		{
 			"id": "system-stats",
@@ -25,7 +31,10 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/system-stats",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"pair"
+			]
 		},
 		{
 			"id": "calendar",
@@ -34,7 +43,11 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/calendar",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"text",
+				"pair"
+			]
 		},
 		{
 			"id": "docker-status",
@@ -43,7 +56,11 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/docker-status",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"text",
+				"pair"
+			]
 		},
 		{
 			"id": "ntfy-bridge",
@@ -52,7 +69,11 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/ntfy-bridge",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"text",
+				"pair"
+			]
 		},
 		{
 			"id": "prayer-times",
@@ -61,7 +82,11 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/prayer-times",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"text",
+				"pair"
+			]
 		},
 		{
 			"id": "bing-wallpaper",
@@ -70,7 +95,11 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/bing-wallpaper",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"provides": [
+				"background",
+				"image"
+			]
 		}
 	],
 	"themes": [
