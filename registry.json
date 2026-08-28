@@ -1,14 +1,87 @@
 {
-	"modules": [],
+	"modules": [
+		{
+			"id": "weather",
+			"name": "Weather",
+			"description": "Current conditions from Open-Meteo",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/weather",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "disk-space",
+			"name": "Disk Space",
+			"description": "Free space on a filesystem",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/disk-space",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "system-stats",
+			"name": "System Stats",
+			"description": "CPU, memory and uptime of the machine running OmniCore",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/system-stats",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "calendar",
+			"name": "Calendar",
+			"description": "Upcoming events from an ICS feed",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/calendar",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "docker-status",
+			"name": "Docker",
+			"description": "Which containers are running",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/docker-status",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "ntfy-bridge",
+			"name": "Notifications",
+			"description": "Recent messages from an ntfy topic",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/ntfy-bridge",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "prayer-times",
+			"name": "Prayer Times",
+			"description": "Daily prayer times from Aladhan",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/prayer-times",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		},
+		{
+			"id": "bing-wallpaper",
+			"name": "Bing Wallpaper",
+			"description": "Bing's picture of the day",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/bing-wallpaper",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
+		}
+	],
 	"themes": [
 		{
-			"id": "example-theme",
-			"name": "Example",
-			"description": "One theme out of a repo that has several",
-			"repo": "https://github.com/some-studio/omnicore-themes",
-			"path": "themes/example",
-			"ref": "the-commit-hash",
-			"author": "some-studio"
+			"id": "windows8",
+			"name": "Windows 8",
+			"description": "Asymmetric tile grid with live tiles and flip animations",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "themes/windows8",
+			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
+			"author": "tanzim2000"
 		}
 	]
 }
