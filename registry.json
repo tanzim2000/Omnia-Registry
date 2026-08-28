@@ -8,7 +8,7 @@
 			"path": "modules/weather",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"pair"
 			]
 		},
@@ -20,7 +20,7 @@
 			"path": "modules/disk-space",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"pair"
 			]
 		},
@@ -32,7 +32,7 @@
 			"path": "modules/system-stats",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"pair"
 			]
 		},
@@ -44,7 +44,7 @@
 			"path": "modules/calendar",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"text",
 				"pair"
 			]
@@ -57,7 +57,7 @@
 			"path": "modules/docker-status",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"text",
 				"pair"
 			]
@@ -70,7 +70,7 @@
 			"path": "modules/ntfy-bridge",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"text",
 				"pair"
 			]
@@ -83,7 +83,7 @@
 			"path": "modules/prayer-times",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"text",
 				"pair"
 			]
@@ -96,7 +96,7 @@
 			"path": "modules/bing-wallpaper",
 			"ref": "d6e384ad7e5b23bc765b675990b5cfc14b2fdc77",
 			"author": "tanzim2000",
-			"provides": [
+			"emits": [
 				"background",
 				"image"
 			]
