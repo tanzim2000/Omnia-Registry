@@ -1,4 +1,14 @@
 {
 	"modules": [],
-	"themes": []
+	"themes": [
+		{
+			"id": "example-theme",
+			"name": "Example",
+			"description": "One theme out of a repo that has several",
+			"repo": "https://github.com/some-studio/omnicore-themes",
+			"path": "themes/example",
+			"ref": "the-commit-hash",
+			"author": "some-studio"
+		}
+	]
 }
