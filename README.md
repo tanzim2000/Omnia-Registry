@@ -21,12 +21,38 @@ open the admin face and go to **Marketplace**.
 	"description": "One line about what it does",
 	"repo": "https://github.com/you/your-repo",
 	"ref": "the-commit-hash",
-	"author": "your-github-username"
+	"author": "your-github-username",
+	"minOmniCore": "1.1.0"
 }
 ```
 
 `id` becomes the folder name it installs to, so it must be lowercase
 letters, numbers and dashes only.
+
+### `minOmniCore`
+
+The oldest OmniCore version your module or theme actually works on —
+not a version of your own. Nothing here has a version number; the
+commit in `ref` **is** the version, and pointing `ref` at a new commit
+**is** how you ship an update. `minOmniCore` only answers a narrower
+question: what's the minimum OmniCore someone needs for this commit to
+work at all?
+
+Treated as "this major version, this release or later" — so `1.1.0`
+means anything from 1.1.0 up through the rest of the 1.x line, but not
+2.0.0. You never need to name an upper bound: a future breaking major
+version is already a separate, deliberate decision on the OmniCore
+side, not something this field has to anticipate.
+
+Get this right, because it's what OmniCore checks before installing or
+silently updating anything:
+
+- Didn't change what core features you rely on? Leave it exactly as it
+  was in your last accepted PR.
+- Started using something new — a data type OmniCore only just
+  started emitting, say — bump it to the version that introduced that.
+  Get this wrong (too low) and someone's install can crash on your
+  update instead of skipping it.
 
 ### One repo, several themes or modules
 
@@ -61,3 +87,8 @@ and gets looked at before it reaches anybody.
 ### Updating your entry
 
 Open another pull request changing the `ref`. Same review, same reason.
+That alone is enough to ship an update — but if the new commit needs a
+newer OmniCore than your current `minOmniCore` promises, raise that
+field in the same PR. An update whose `minOmniCore` a person's install
+doesn't meet is skipped rather than installed, so getting this right
+is what keeps an update from reaching someone it would actually break.
