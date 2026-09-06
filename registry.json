@@ -10,7 +10,8 @@
 			"author": "tanzim2000",
 			"emits": [
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "disk-space",
@@ -22,7 +23,8 @@
 			"author": "tanzim2000",
 			"emits": [
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "system-stats",
@@ -34,7 +36,8 @@
 			"author": "tanzim2000",
 			"emits": [
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "calendar",
@@ -47,7 +50,8 @@
 			"emits": [
 				"text",
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "docker-status",
@@ -60,7 +64,8 @@
 			"emits": [
 				"text",
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "ntfy-bridge",
@@ -73,7 +78,8 @@
 			"emits": [
 				"text",
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "prayer-times",
@@ -86,7 +92,8 @@
 			"emits": [
 				"text",
 				"pair"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		},
 		{
 			"id": "bing-wallpaper",
@@ -99,7 +106,8 @@
 			"emits": [
 				"background",
 				"image"
-			]
+			],
+			"minOmniCore": "1.0.0"
 		}
 	],
 	"themes": [
@@ -110,7 +118,8 @@
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "themes/windows8",
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
-			"author": "tanzim2000"
+			"author": "tanzim2000",
+			"minOmniCore": "1.0.0"
 		}
 	]
 }
