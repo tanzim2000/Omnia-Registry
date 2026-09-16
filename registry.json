@@ -109,6 +109,20 @@
 				"image"
 			],
 			"minOmniCore": "1.0.0"
+		},
+		{
+			"id": "world-clock",
+			"name": "World Clock",
+			"description": "The current time, here or somewhere else",
+			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
+			"path": "modules/world-clock",
+			"ref": "ccf82b660db17f8551b04e47201e1a6bbf201bc4",
+			"author": "tanzim2000",
+			"emits": [
+				"text",
+				"time"
+			],
+			"minOmniCore": "1.4.0"
 		}
 	],
 	"themes": [
