@@ -42,16 +42,17 @@
 		{
 			"id": "calendar",
 			"name": "Calendar",
-			"description": "Upcoming events from an ICS feed",
+			"description": "Events from an ICS feed",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/calendar",
-			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
+			"ref": "ccf82b660db17f8551b04e47201e1a6bbf201bc4",
 			"author": "tanzim2000",
 			"emits": [
+				"event",
 				"text",
 				"pair"
 			],
-			"minOmniCore": "1.0.0"
+			"minOmniCore": "1.13.0"
 		},
 		{
 			"id": "docker-status",
