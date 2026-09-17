@@ -88,7 +88,7 @@
 			"description": "Daily prayer times from Aladhan",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/prayer-times",
-			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
+			"ref": "06abd415e5ea06d1181cbada3d5f2ef5741e8fe6",
 			"author": "tanzim2000",
 			"emits": [
 				"text",
