@@ -9,7 +9,8 @@
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
 			"author": "tanzim2000",
 			"emits": [
-				"pair"
+				"pair",
+				"text"
 			],
 			"minOmniCore": "1.0.0"
 		},
@@ -22,7 +23,8 @@
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
 			"author": "tanzim2000",
 			"emits": [
-				"pair"
+				"pair",
+				"text"
 			],
 			"minOmniCore": "1.0.0"
 		},
@@ -106,7 +108,8 @@
 			"author": "tanzim2000",
 			"emits": [
 				"background",
-				"image"
+				"image",
+				"text"
 			],
 			"minOmniCore": "1.0.0"
 		},
