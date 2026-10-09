@@ -73,15 +73,14 @@
 		{
 			"id": "ntfy",
 			"name": "ntfy",
-			"description": "Live messages from an ntfy topic, with notifications",
+			"description": "Notifications from an ntfy topic, and how many came in",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/ntfy",
-			"ref": "24ef561dd983e8b82293e518e86d3f6847a0468f",
+			"ref": "7768c0707d4828f6c64112fa914c84abe7bb87e0",
 			"author": "tanzim2000",
 			"emits": [
 				"text",
-				"pair",
-				"qr"
+				"pair"
 			],
 			"minOmniCore": "1.16.1"
 		},
