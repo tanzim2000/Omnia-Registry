@@ -71,18 +71,19 @@
 			"minOmniCore": "1.0.0"
 		},
 		{
-			"id": "ntfy-bridge",
-			"name": "Notifications",
-			"description": "Recent messages from an ntfy topic",
+			"id": "ntfy",
+			"name": "ntfy",
+			"description": "Live messages from an ntfy topic, with notifications",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
-			"path": "modules/ntfy-bridge",
-			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
+			"path": "modules/ntfy",
+			"ref": "24ef561dd983e8b82293e518e86d3f6847a0468f",
 			"author": "tanzim2000",
 			"emits": [
 				"text",
-				"pair"
+				"pair",
+				"qr"
 			],
-			"minOmniCore": "1.0.0"
+			"minOmniCore": "1.16.1"
 		},
 		{
 			"id": "prayer-times",
@@ -135,7 +136,7 @@
 			"description": "Asymmetric tile grid with live tiles and flip animations",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "themes/windows8",
-			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
+			"ref": "24ef561dd983e8b82293e518e86d3f6847a0468f",
 			"author": "tanzim2000",
 			"minOmniCore": "1.0.0"
 		}
