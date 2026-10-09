@@ -76,13 +76,13 @@
 			"description": "Notifications from an ntfy topic, and how many came in",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/ntfy",
-			"ref": "7768c0707d4828f6c64112fa914c84abe7bb87e0",
+			"ref": "ddb435b4cff10477122182b5749e96250d5ac1e3",
 			"author": "tanzim2000",
 			"emits": [
 				"text",
 				"pair"
 			],
-			"minOmniCore": "1.16.1"
+			"minOmniCore": "1.19.0"
 		},
 		{
 			"id": "prayer-times",
