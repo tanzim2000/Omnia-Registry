@@ -54,6 +54,37 @@ silently updating anything:
   Get this wrong (too low) and someone's install can crash on your
   update instead of skipping it.
 
+### What your module does beyond its tile
+
+Three more fields, each one `true` or left out. They don't change how
+anything runs: they're what the Marketplace shows people before they
+install, as tags on the listing and a sentence each on its page. A
+reviewer checks them against the module, so be honest:
+
+| Field        | Set it to `true` when your module...                                                                                  |
+| ------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `background` | keeps running the whole time OmniCore is on. It's the same as `"background": true` in your `module.json`.             |
+| `inport`     | takes input: it has an `input.json`, so the face it's on gets an Inport with controls for it.                         |
+| `notifies`   | can pop up notifications on the screens showing its face.                                                             |
+
+```json
+{
+	"id": "ntfy",
+	"minOmniCore": "1.19.0",
+	"background": true,
+	"notifies": true
+}
+```
+
+Only an exact `true` counts. Leave a field out rather than setting it to
+`false`. They live here rather than in your `module.json` because this
+file is the part that gets reviewed: a module can't hide that it runs in
+the background by not mentioning it. The Marketplace shows them from
+OmniCore 1.19.6; an older OmniCore ignores them.
+
+`minOmniCore` is shown too, on every listing, as "OmniCore 1.19.0 or
+newer", and in red when the OmniCore looking at it is older than that.
+
 ### One repo, several themes or modules
 
 If your repo holds more than one — a studio publishing ten themes from
