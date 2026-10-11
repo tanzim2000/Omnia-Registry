@@ -118,16 +118,16 @@
 		{
 			"id": "world-clock",
 			"name": "World Clock",
-			"description": "The current time, here or somewhere else",
+			"description": "The time here, somewhere else, or in up to four places at once",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/world-clock",
-			"ref": "ccf82b660db17f8551b04e47201e1a6bbf201bc4",
+			"ref": "8bc728b5e5caf9a14b327a335afd3107b75312a1",
 			"author": "tanzim2000",
 			"emits": [
 				"text",
 				"time"
 			],
-			"minOmniCore": "1.4.0"
+			"minOmniCore": "1.19.7"
 		}
 	],
 	"themes": [
