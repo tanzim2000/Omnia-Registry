@@ -82,7 +82,9 @@
 				"text",
 				"pair"
 			],
-			"minOmniCore": "1.19.0"
+			"minOmniCore": "1.19.0",
+			"background": true,
+			"notifies": true
 		},
 		{
 			"id": "prayer-times",
