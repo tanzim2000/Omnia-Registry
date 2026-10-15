@@ -3,16 +3,18 @@
 		{
 			"id": "weather",
 			"name": "Weather",
-			"description": "Current conditions from Open-Meteo",
+			"description": "The weather where you are, from the service you trust, with alerts when it turns bad",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "modules/weather",
-			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
+			"ref": "77a56a3c0eb6194aff4370ce6bf46c05196aa514",
 			"author": "tanzim2000",
 			"emits": [
 				"pair",
 				"text"
 			],
-			"minOmniCore": "1.0.0"
+			"minOmniCore": "1.19.8",
+			"background": true,
+			"notifies": true
 		},
 		{
 			"id": "disk-space",
@@ -137,7 +139,7 @@
 			"description": "Asymmetric tile grid with live tiles and flip animations",
 			"repo": "https://github.com/tanzim2000/Omnia-Essentials",
 			"path": "themes/windows8",
-			"ref": "24ef561dd983e8b82293e518e86d3f6847a0468f",
+			"ref": "77a56a3c0eb6194aff4370ce6bf46c05196aa514",
 			"author": "tanzim2000",
 			"minOmniCore": "1.0.0"
 		}
