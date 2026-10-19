@@ -8,6 +8,7 @@
 			"path": "modules/weather",
 			"ref": "77a56a3c0eb6194aff4370ce6bf46c05196aa514",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"pair",
 				"text"
@@ -24,6 +25,7 @@
 			"path": "modules/disk-space",
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"pair",
 				"text"
@@ -38,6 +40,7 @@
 			"path": "modules/system-stats",
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"pair"
 			],
@@ -51,6 +54,7 @@
 			"path": "modules/calendar",
 			"ref": "ccf82b660db17f8551b04e47201e1a6bbf201bc4",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"event",
 				"text",
@@ -66,6 +70,7 @@
 			"path": "modules/docker-status",
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"text",
 				"pair"
@@ -80,6 +85,7 @@
 			"path": "modules/ntfy",
 			"ref": "ddb435b4cff10477122182b5749e96250d5ac1e3",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"text",
 				"pair"
@@ -96,6 +102,7 @@
 			"path": "modules/prayer-times",
 			"ref": "06abd415e5ea06d1181cbada3d5f2ef5741e8fe6",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"text",
 				"pair"
@@ -110,6 +117,7 @@
 			"path": "modules/bing-wallpaper",
 			"ref": "fab91189657c937d6e2dc7e007784c93600791a3",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"background",
 				"image",
@@ -125,6 +133,7 @@
 			"path": "modules/world-clock",
 			"ref": "8bc728b5e5caf9a14b327a335afd3107b75312a1",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"emits": [
 				"text",
 				"time"
@@ -141,6 +150,7 @@
 			"path": "themes/windows8",
 			"ref": "77a56a3c0eb6194aff4370ce6bf46c05196aa514",
 			"author": "tanzim2000",
+			"license": "0BSD",
 			"minOmniCore": "1.0.0"
 		}
 	]
