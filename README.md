@@ -56,11 +56,17 @@ a version of your own. Nothing here has a version number: the commit in
 you ship an update. `minOmniCore` only answers a narrower question: what's
 the minimum OmniCore someone needs for this commit to work at all?
 
-Treated as "this major version, this release or later", so `1.1.0`
-means anything from 1.1.0 up through the rest of the 1.x line, but not
-2.0.0. You never need to name an upper bound: a future breaking major
-version is already a separate, deliberate decision on the OmniCore
-side, not something this field has to anticipate.
+Treated as "this version or later": `1.1.0` means OmniCore 1.1.0 and
+every version after it, 2.0.0 included. You never need to name an upper
+bound. If OmniCore ever changes what modules and themes rely on (the
+`omni` object, the data blocks, the theme contract), that OmniCore
+decides it: it stops installing anything made for an older one, and
+says so. Nothing has changed that yet, so everything listed here
+installs on OmniCore 2.
+
+(Before OmniCore 2.0.0 this meant "this major version only": `1.1.0`
+meant 1.x and nothing after. Nothing listed here needs changing for the
+new meaning.)
 
 Get this right, because it's what OmniCore checks before installing or
 silently updating anything:
