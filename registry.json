@@ -1,4 +1,5 @@
 {
+	"banner": "",
 	"modules": [
 		{
 			"id": "weather",
