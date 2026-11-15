@@ -23,6 +23,7 @@ admin face and go to **Marketplace**.
 	"ref": "the-commit-hash",
 	"author": "your-github-username",
 	"license": "MIT",
+	"icon": "https://raw.githubusercontent.com/you/your-repo/the-commit-hash/icon.png",
 	"minOmniCore": "1.1.0"
 }
 ```
@@ -47,6 +48,29 @@ listing's page, under Source, before anyone installs.
 
 New entries need it. Older entries without it still install, and show
 "No licence stated".
+
+### `icon`
+
+A picture of your module or theme, shown on its listing in the
+Marketplace and at the top of its own page. New entries need one.
+
+- **Square**, 512 by 512 pixels is right. It's shown small, with
+  rounded corners, so keep it simple and keep the edges plain.
+- **PNG, JPEG or WebP**, under 200 KB.
+- **An https:// address** that will keep working. The surest is your
+  own repo at the commit you list in `ref`:
+  `https://raw.githubusercontent.com/you/your-repo/<ref>/icon.png`. Then
+  the icon can't change without a pull request either.
+
+OmniCore fetches the picture itself and hands it to the browser, so the
+people looking at your listing never connect to wherever the picture is.
+An icon that won't load shows as a coloured tile with your module's
+first letter, and so does an entry without one (older entries that
+haven't added one yet). The Marketplace shows icons from OmniCore 2.0.0;
+an older OmniCore ignores the field.
+
+Screenshots don't go here. They stay in your `module.json` (or
+`theme.json`), as `screenshots`, and show on your listing's page.
 
 ### `minOmniCore`
 
@@ -133,6 +157,27 @@ Only what's inside that folder gets installed; the rest of the repo is
 left behind. Leave `path` out entirely when your repo holds just the one
 thing; that's still the common case.
 
+### The registry's own banner
+
+`banner`, at the top of `registry.json` beside `modules` and `themes`,
+is a picture for the whole list rather than for one entry. OmniCore shows
+it across the top of the Marketplace, beside the list's name under
+Sources, and on the Marketplace tile in Settings, where it takes turns
+with the banners of any other lists the person has added. It's set by
+whoever runs the list, not in an entry's pull request.
+
+- **16:9**, 1600 by 900 pixels is right. It's cropped to fit wherever
+  it's shown (a wide strip on the Marketplace, a tall box in Settings on
+  a big screen), so keep what matters in the middle and no words near the
+  edges.
+- **PNG, JPEG or WebP**, under 500 KB.
+- **An https:// address.** Here, a picture in this repo's `images`
+  folder, at its raw.githubusercontent.com address.
+
+Empty (`""`), or left out, means no banner, and the Marketplace looks as
+it always has. A mirror or your own list can have its own. OmniCore 1.x
+ignores the field.
+
 ### Why a commit hash and not a branch
 
 OmniCore downloads exactly the commit listed here. If this pointed at a
@@ -167,7 +212,10 @@ breaking one later is taken out.
    under different names or ids.
 5. **Be honest in the fields.** `background`, `inport`, `notifies`,
    `minOmniCore` and `license` are checked in review.
-6. **No "official".** Don't call a module or theme "official", or say
+6. **Pictures you're allowed to use.** An `icon` (and a list's `banner`)
+   must be yours, or one you have the right to use. No other project's
+   logo, and nothing made to look like one.
+7. **No "official".** Don't call a module or theme "official", or say
    or suggest it's made or approved by the Omnia project, and don't name
    it after Omnia, OmniCore or the other names in OmniCore's
    [TRADEMARKS.md](https://github.com/tanzim2000/Omnia-OmniCore/blob/main/TRADEMARKS.md).
@@ -175,7 +223,9 @@ breaking one later is taken out.
 
 By opening a pull request that adds or changes an entry, you agree that
 the entry itself (its id, name, description and the other fields) is
-published in this list under the list's licence below. Your module or
+published in this list under the list's licence below. The picture an
+`icon` points at isn't part of the list: it stays under its own licence,
+and you give OmniCore leave to show it on your listing. Your module or
 theme keeps its own licence.
 
 ## Licence
